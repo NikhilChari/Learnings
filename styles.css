@@ -1,13 +1,79 @@
-button{
-    background-color: red;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 30px;
+body {
+    font-family: Arial, sans-serif;
+    color: black;
 }
-.one{
-    
-    
+header {
+    height: 60px;
+    background-color: #000000;
+ 
+
+}
+#logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    margin-right: 200px;
+    cursor: pointer;
+}
+#Account {
+   
+    color: white;
+    margin-right: 200px;
+    cursor: pointer;
+}
+#Mycart {
+
+    color: white;
+    margin-right: 200px;
+    cursor: pointer;
+
+}
+#contactus   {
+ color: white;margin-right: 200px;
+    cursor: pointer;
+}
+#search {
+    margin-right: 200px
+}
+button {
+    background-color: #f08804;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#container {
+height: 700px;
+display: flex;
+justify-content: center;
+}
+ 
+.contentbox1 {
+    background-color: rgba(224, 64, 131, 0.5);
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border: #000000 solid 2px;
+    display : inline-block;
+}
+.contentbox2{
+    background-color: rgba(131, 224, 64, 0.5);
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border: #000000 solid 2px;
+    display : inline-block;
+}
+.contentbox3 {
+    background-color: rgba(69, 25, 92, 0.5);
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border: #000000 solid 2px;
+    display : inline-block;
+}
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+   
 }
