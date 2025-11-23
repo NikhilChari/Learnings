@@ -3,6 +3,7 @@ body {
     color: black;
 }
 header {
+
     height: 60px;
     background-color: #000000;
  
@@ -42,7 +43,7 @@ button {
     cursor: pointer;
 }
 #container {
-height: 700px;
+height: 70px;
 display: flex;
 justify-content: center;
 }
@@ -72,6 +73,10 @@ justify-content: center;
     display : inline-block;
 }
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
     background-color: #000000;
     color: white;
     text-align: center;

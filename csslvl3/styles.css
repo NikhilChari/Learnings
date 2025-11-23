@@ -1,0 +1,22 @@
+
+div{
+    background-image: url("butterfly.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    color: white;
+    position: fixed;
+    right: 10px;
+    top: 50px;
+}
+
+/* #box{
+    background-color: rgba(0, 0, 0, 1);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    
+} */
+
